@@ -1,0 +1,62 @@
+@-moz-document url-prefix("http://kuroganehammer.com/") {
+    /*! KuroganeHammer dark theme (v0.1.0) */
+    /*
+ * License: https://creativecommons.org/licenses/by-sa/4.0/
+
+
+/*credit for body goes to:
+/*! Github Dark Theme v1.14.87 (6/21/2016) */
+    /*
+ * https://github.com/StylishThemes/GitHub-Dark
+ * http://userstyles.org/styles/37035
+ * License: https://creativecommons.org/licenses/by-sa/4.0/
+*/
+    body {
+        background-color: #222 !important;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkAgMAAAANjH3HAAAACVBMVEUaGhohISElJSUh9lebAAAB20lEQVRIx4XWuZXDMAwE0C0SAQtggIIYoAAEU+aKOHhYojTrYP2+QfOW/5QIJOih/q8HwF/pb3EX+UPIveYcQGgEHiu9hI+ihEc5Jz5KBIlRRRaJ1JtoSAl5Hw96hLB1/up1tnIXOck5jZQy+3iU2hAOKSH1JvwxHsp+5TLF5MOl1/MQXsVs1miXc+KDbYydyMeUgpPQreZ7fWidbNhkXNJSeAhc6qHmHD8AYovunYyEACWEbyIhNeB9fRrH3hFi0bGPLuEW7xCNaohw1vAlS805nfsrTspclB/hVdoqusg53eH7FWot+wjYpOViX8KbFFKTwlnzvj65P9H/vD0/hibYBGhPwlPO8TmxRsaxsNnrUmUXpNhirlJMPr6Hqq9k5Xn/8iYQHYIuQsWFC6Z87IOxLxHphSY4SpuiU87xJnJr5axfeRd+lnMExXpEWPpuZ1v7qZdNBOjiHzDREHX5fs5Zz9p6X0vVKbKKchlSl5rv+3p//FJ/PYvoKryI8vs+2G9lzRmnEKkh+BU8yDk515jDj/HAswu7CCz6U/Mxb/PnC9N41ndpU4hUU7JGk/C9PmP/M2xZYdvBW2PObyf1IUiIzoHmHW9yTncliYs9A9tVNppdShfgQaTLMf+j3X723tLeHgAAAABJRU5ErkJggg==) !important;
+        background-clip: border-box !important;
+        background-origin: padding-box !important;
+        background-attachment: scroll !important;
+        background-repeat: repeat !important;
+        background-size: auto !important;
+        background-position: left top !important;
+    }
+    td {
+        border-color: rgba(26, 26, 26, 0.0);
+        background: rgba(26, 26, 26, 0.0);
+    }
+    tr {
+        border-color: rgba(26, 26, 26, 0.0);
+    }
+    tbody {
+        border-color: rgba(26, 26, 26, 0.0);
+    }
+    table {
+        border-color: rgba(26, 26, 26, 0.0);
+    }
+    h1 {
+        color: #f6f5fc;
+    }
+    h2 {
+        color: #f6f5fc;
+    }
+    h3 {
+        color: #f6f5fc;
+    }
+}
+
+@-moz-document url-prefix("http://kuroganehammer.com/Smash4/mario") {
+    .mario h1 {
+        color: #fbebec;
+    }
+    .mario h2 {
+        color: #fbebec;
+    }
+    .mario h3 {
+        color: #fbebec;
+    }
+    .mario table td {
+        color: #fbebec;
+        background: rgba(26, 26, 26, 0.0);
+    }
+}
