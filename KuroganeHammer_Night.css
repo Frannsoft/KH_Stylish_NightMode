@@ -1,4 +1,4 @@
-@-moz-document url("http://kuroganehammer.com/Smash4") {
+@-moz-document url("http://kuroganehammer.com/"), url-prefix("http://kuroganehammer.com/Smash"), url-prefix("http://kuroganehammer.com/Melee"), url-prefix("http://kuroganehammer.com/Pokken"), url-prefix("http://kuroganehammer.com/RivalsofAether"), url-prefix("http://kuroganehammer.com/Glossary"), url-prefix("http://kuroganehammer.com/AboutUs") {
 /*! KuroganeHammer dark theme (v0.1.0) */
 /* Author: Franndotexe */
 /*credit for body goes to:
@@ -18,6 +18,15 @@ body {
     background-repeat: repeat !important;
     background-size: auto !important;
     background-position: left top !important;
+}
+
+header{
+    background-color: #255e7f;
+    border-radius: 5px;
+}
+footer{
+    background-color: #255e7f;
+    border-radius: 5px;
 }
 td {
     border-color: rgba(26, 26, 26, 0.0);
@@ -43,7 +52,7 @@ h3 {
 }
 }
 
-@-moz-document url-prefix("http://kuroganehammer.com/Smash4/") {
+@-moz-document url-prefix("http://kuroganehammer.com/Smash4/"), url-prefix("http://kuroganehammer.com/Melee/"), url-prefix("http://kuroganehammer.com/Pokken/"), url-prefix("http://kuroganehammer.com/RivalsofAether/"), url-prefix("http://kuroganehammer.com/Glossary"), url-prefix("http://kuroganehammer.com/AboutUs") {
 /*! KuroganeHammer dark theme (v0.1.0) */
 /* Author: Franndotexe */
 /*credit for body goes to:
@@ -63,6 +72,7 @@ body {
     background-repeat: repeat !important;
     background-size: auto !important;
     background-position: left top !important;
+    color: #fbebec !important;
 }
 td {
     border-color: rgba(26, 26, 26, 0.0);
@@ -76,6 +86,9 @@ tbody {
 }
 table {
     border-color: rgba(26, 26, 26, 0.0);
+}
+table tbody tr td div span{
+    color: #fbebec !important;
 }
 h1 {
     color: #fbebec !important;
@@ -90,5 +103,40 @@ table td {
     color: #fbebec !important;
     background: rgba(26, 26, 26, 0.0) !important;
     border-color: rgba(251, 235, 236, 0.5) !important;
+}
+}
+
+@-moz-document url("http://kuroganehammer.com/Smash4/Attributes") {
+td {
+    border-color: rgba(26, 26, 26, 0.0);
+    background: rgba(26, 26, 26, 0.0);
+}
+tr {
+    border-color: rgba(26, 26, 26, 0.0);
+}
+tbody {
+    border-color: rgba(26, 26, 26, 0.0);
+}
+table {
+    border-color: rgba(26, 26, 26, 0.0);
+}
+table td {
+    color: #fbebec !important;
+    background: rgba(26, 26, 26, 0.0) !important;
+    border-color: rgba(26, 26, 26, 0.0) !important;
+}
+}
+
+@-moz-document url("http://kuroganehammer.com/Smash4/Calculator"), url("http://kuroganehammer.com/SmashResources") {
+td div span[style] {
+    color: #fbebec !important;
+}
+
+table td{
+        color: #fbebec !important;
+}
+
+table thead tr th {
+    background-color: #255e7f;
 }
 }
